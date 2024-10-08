@@ -133,7 +133,7 @@ extra_deps['testing'] = [
 
 extra_deps['all'] = sorted({dep for deps in extra_deps.values() for dep in deps})
 
-package_name = os.environ.get('MOSAIC_PACKAGE_NAME', 'mosaicml-streaming')
+package_name = os.environ.get('MOSAIC_PACKAGE_NAME', 'streaming')
 
 if package_name != 'mosaicml-streaming':
     print(f'Building mosaicml-streaming as {package_name}')
