@@ -42,22 +42,22 @@ classifiers = [
 ]
 
 install_requires = [
-    'boto3>=1.21.45,<2',
-    'Brotli>=1.0.9',
-    # 'google-cloud-storage>=2.9.0,<2.11.0',
-    'matplotlib>=3.5.2,<4',
-    'paramiko>=2.11.0,<4',
-    'python-snappy>=0.6.1,<1',
+    'boto3',
+    'Brotli',
+    'google-cloud-storage',
+    'matplotlib',
+    'paramiko',
+    'python-snappy',
     'torch>=1.10,<3',
     'torchvision>=0.10',
-    'tqdm>=4.64.0,<5',
-    'transformers>=4.21.3,<5',
-    'xxhash>=3.0.0,<4',
-    'zstd>=1.5.2.5,<2',
-    'oci>=2.88,<3',
-    'azure-storage-blob>=12.0.0,<13',
-    'azure-storage-file-datalake>=12.11.0,<13',
-    'azure-identity>=1.13.0',
+    'tqdm',
+    'transformers',
+    'xxhash',
+    'zstd',
+    # 'oci',
+    # 'azure-storage-blob',
+    # 'azure-storage-file-datalake',
+    # 'azure-identity',
 ]
 
 extra_deps = {}
